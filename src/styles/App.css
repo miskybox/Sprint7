@@ -1,0 +1,131 @@
+/*App.css*/
+::after ::before {
+  background-color: #000;
+}
+:root {
+  background-color: black;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#welcome {
+  position: relative;
+  background-image: url("../assets/starWars-stars.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(145, 141, 141);
+}
+
+#enterButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.social-icons {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    left: 10px;
+  }
+}
+
+#title-image {
+  background-image: url("../assets/300px-Star_Wars_Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  width: 95%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.auth-form {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+}
+
+.auth-form input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 5px;
+  height: 1.6em;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 20px;
+}
+
+.card-body {
+  border: auto solid #cccccc;
+  color: #fff;
+}
+
+.register {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  height: 100vh;
+}
